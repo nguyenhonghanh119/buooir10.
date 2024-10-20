@@ -1,0 +1,61 @@
+/* thông tin */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Arial;
+    margin: 0;
+    border: white;
+  }
+  h1{font-family: 'Times New Roman', Times, serif;}
+  h2{font-family: 'Times New Roman', Times, serif;}
+  h3{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+  
+  /* Column container */
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  /* khung 30 */
+  .side {
+    flex: 30%;
+    background-color: #c6f1f5;
+    padding: 20px;
+  }
+  
+  
+  /* khung 70 */
+  .main {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+ 
+  /* ô lề dưới */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+  
+  /*700px xuống dòng,  */
+  @media screen and (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }
+  .circle-image {
+    border-radius: 50%;
+    border: 2px solid #000; /* Điều chỉnh độ dày và màu viền */
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .circle-image:hover{
+    content: url("ảnh 2.jpg");} 
+    
+    
